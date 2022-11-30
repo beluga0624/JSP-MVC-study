@@ -1,0 +1,16 @@
+<Context>
+	<Resource 
+		name="jdbc/commShop"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="beluga"
+		password="beluga1234"
+		driverClassName="oracle.jdbc.driver.OracleDriver"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		url="jdbc:oracle:thin:@localhost:1521:Beluga"
+		maxTotal="500"
+		maxIdle="100"
+		removeAbandonedOnBorrow="true"
+		removeAbandonedOnMaintenance="true"
+		removeAbandonedTimeout="20"/>
+</Context>
